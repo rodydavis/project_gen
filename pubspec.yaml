@@ -1,6 +1,6 @@
 name: flutter_project_gen
 description: A new Flutter package project.
-version: 1.0.0
+version: 1.0.0+1
 homepage: https://github.com/rodydavis/project_gen
 
 environment:
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   reflected_mustache: ^1.0.11
-  freezed_annotation: ^0.11.0
+  freezed_annotation: ^0.7.1
   recase: ^3.0.0
   archive: ^2.0.13
   image_resizer: ^1.0.2
