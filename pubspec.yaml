@@ -1,8 +1,7 @@
-name: project_gen
+name: flutter_project_gen
 description: A new Flutter package project.
 version: 1.0.0
-author:
-homepage:
+homepage: https://github.com/rodydavis/project_gen
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,24 +10,19 @@ dependencies:
   flutter:
     sdk: flutter
   reflected_mustache: ^1.0.11
-  freezed_annotation: any
+  freezed_annotation: ^0.11.0
   recase: ^3.0.0
   archive: ^2.0.13
-  image_resizer: ^1.0.1
-  template_gen:
-    path: ../template_gen
+  image_resizer: ^1.0.2
+  path: ^1.7.0
+  logging: ^0.11.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   build_version: ^2.0.0
   freezed: ^0.10.2
-  settings_gen: any
+  settings_gen: ^1.0.4
   build_runner: ^1.7.1
 
-dependency_overrides:
-  image_resizer:
-    git: https://github.com/rodydavis/image_resizer
-
 flutter:
-

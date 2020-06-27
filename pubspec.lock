@@ -147,7 +147,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.14.12"
+    version: "1.14.13"
   convert:
     dependency: transitive
     description:
@@ -266,12 +266,10 @@ packages:
   image_resizer:
     dependency: "direct main"
     description:
-      path: "."
-      ref: HEAD
-      resolved-ref: "75d86848debcc0840b9575fabf470e9462cf9e6e"
-      url: "https://github.com/rodydavis/image_resizer"
-    source: git
-    version: "1.0.1"
+      name: image_resizer
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   io:
     dependency: transitive
     description:
@@ -294,7 +292,7 @@ packages:
     source: hosted
     version: "3.0.1"
   logging:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: logging
       url: "https://pub.dartlang.org"
@@ -306,7 +304,7 @@ packages:
       name: matcher
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.6"
+    version: "0.12.8"
   meta:
     dependency: transitive
     description:
@@ -350,7 +348,7 @@ packages:
     source: hosted
     version: "1.0.10"
   path:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: path
       url: "https://pub.dartlang.org"
@@ -425,7 +423,7 @@ packages:
       name: settings_gen
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.3"
+    version: "1.0.4"
   settings_manager:
     dependency: transitive
     description:
@@ -494,13 +492,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.5"
-  template_gen:
-    dependency: "direct main"
-    description:
-      path: "../template_gen"
-      relative: true
-    source: path
-    version: "0.0.1"
   term_glyph:
     dependency: transitive
     description:
@@ -514,7 +505,7 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.16"
+    version: "0.2.17"
   timing:
     dependency: transitive
     description:
